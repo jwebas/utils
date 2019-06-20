@@ -179,6 +179,9 @@ use Jwebas\Utils\Url;
 
 // Check is ssl (https) is enabled.
 Url::httpsEnabled(): bool
+
+// Check if string is external url.
+Url::isExternal(string $url, bool $strict = true): bool
 ```
 
 ### Links
